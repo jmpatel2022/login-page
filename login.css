@@ -1,0 +1,57 @@
+.head{
+    height: 600px;
+    width: 30%;
+}
+.login {
+    width:30%;
+    float: left;
+    background-color: #e4ddcc;
+    height: 300px;
+    width: 270px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.uname{
+    background-color: white;
+    width: 200px;
+    border-bottom-style: groove;
+}
+input{
+    border: 0px ;
+    height: 30px; 
+}
+input:focus{
+    outline: none;
+}
+.checkbox{
+height: 15px;
+width: 16px;
+}
+button{
+    width: 180px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    /* height: 24px; */
+    /* width: 40px; */
+    text-align: center;
+    width: 200px;
+    border-radius: 12px;
+    border: none;
+}
+.link{
+    color: black;
+}
+
+.content{
+    background-color: transparent ;
+}   
+.footer:hover{
+    cursor: pointer;
+}
+
+.black-href {
+    color: black;
+    text-decoration:none;
+    font-size: 12px;
+}

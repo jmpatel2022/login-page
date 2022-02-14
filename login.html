@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="login.css">
+    <script SRC="https://kit.fontawesome.com/6e3fc6f784.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div class="head">
+        <div class="login">
+            <i class="fas fa-lock"></i> <b>View Your Accounts</b>
+            <p class="uname">
+                <label>Username</label><br>
+                <input name="Username" id="username" onkeypress="validateUser()">
+            </p>
+            <p class="uname">
+                <label>Password</label><br>
+                <input name="Password" type="password" id="password">
+            </p>
+            <p>
+                <input type="checkbox" name="saveuser" style="height: 13px;">&nbsp;
+                <label for="saveuser">Save username</label>
+            </p>
+            <button onclick="validate()"> Sign On</button>
+            <p class="link"><a href="#">Forgot Password/Username?</a></p>
+        </div>
+        <div class="login" style="background-color: white;height: 100px;">
+            <a href="#" class="black-href">Enroll Now</a><br>
+            <a href="#" class="black-href">Security Center</a><br>
+            <a href="#" class="black-href">Privacy, Cookies and Security</a>
+        </div>
+    </div>
+</body>
+
+</html>
